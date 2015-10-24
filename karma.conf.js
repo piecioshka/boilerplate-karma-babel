@@ -22,8 +22,6 @@ module.exports = function (config) {
 
         // list of files / patterns to load in the browser
         files: [
-            'node_modules/babel-core/browser-polyfill.js',
-
             'app/scripts/**/*.es6.js',
             'test/**/*.es6.js'
         ],
