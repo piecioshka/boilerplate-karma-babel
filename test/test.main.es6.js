@@ -1,3 +1,5 @@
+var Main = require('../app/scripts/main.es6');
+
 describe('Main class', function () {
     it('can create instance', function () {
         expect(new Main()).toEqual(jasmine.any(Object));
