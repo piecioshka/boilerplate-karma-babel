@@ -1,14 +1,30 @@
 {
-    "private": true,
-    "scripts": {
-        "test": "karma start"
-    },
-    "devDependencies": {
-        "jasmine-core": "^2.3.4",
-        "karma": "^0.13.14",
-        "karma-babel-preprocessor": "^5.2.2",
-        "karma-chrome-launcher": "^0.2.1",
-        "karma-commonjs": "0.0.13",
-        "karma-jasmine": "^0.3.6"
-    }
+  "private": true,
+  "name": "boilerplate-karma-babel",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": {
+    "name": "Piotr Kowalski",
+    "email": "piecioshka@gmail.com",
+    "url": "https://piecioshka.pl"
+  },
+  "scripts": {
+    "test": "karma start --singleRun",
+    "test:watch": "karma start"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "jasmine": "^3.10.0",
+    "karma": "^6.3.9",
+    "karma-babel-preprocessor": "^8.0.1",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-commonjs": "^1.0.0",
+    "karma-jasmine": "^4.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piecioshka/boilerplate-karma-babel"
+  }
 }
