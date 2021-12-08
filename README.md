@@ -12,6 +12,7 @@
 
 ```bash
 npm test
+npm run test:watch
 ```
 
 ## Related
