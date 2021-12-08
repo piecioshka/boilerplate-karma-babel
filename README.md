@@ -1,6 +1,6 @@
 # boilerplate-karma-babel
 
-🍴 Starter with Karma (+ Jasmine) & Babel.js
+🍴 Starter with Karma (+Jasmine) & Babel.js
 
 ## Features
 
