@@ -1,13 +1,13 @@
 {
   "private": true,
   "name": "boilerplate-karma-babel",
-  "version": "0.0.0",
   "description": "",
+  "version": "0.0.0",
   "license": "MIT",
   "author": {
     "name": "Piotr Kowalski",
     "email": "piecioshka@gmail.com",
-    "url": "https://piecioshka.pl"
+    "url": "https://piecioshka.pl/"
   },
   "scripts": {
     "test": "karma start --singleRun",
@@ -17,6 +17,7 @@
   "devDependencies": {
     "@babel/core": "^7.16.5",
     "@babel/preset-env": "^7.16.5",
+    "@types/jasmine": "^3.10.2",
     "jasmine": "^3.10.0",
     "karma": "^6.3.9",
     "karma-babel-preprocessor": "^8.0.1",
