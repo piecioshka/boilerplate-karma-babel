@@ -15,13 +15,11 @@ module.exports = function (config) {
       "karma-jasmine",
       "karma-chrome-launcher",
       "karma-babel-preprocessor",
+      "karma-nyan-reporter",
     ],
 
     // list of files / patterns to load in the browser
-    files: [
-      "src/**/*.js",
-      "test/**/*.spec.js",
-    ],
+    files: ["src/**/*.js"],
 
     // list of files / patterns to exclude
     exclude: [],
@@ -30,7 +28,6 @@ module.exports = function (config) {
     // available preprocessors: https://www.npmjs.com/search?q=keywords:karma-preprocessor
     preprocessors: {
       "src/**/*.js": ["babel", "commonjs"],
-      "test/**/*.js": ["babel", "commonjs"],
     },
 
     // test results reporter to use

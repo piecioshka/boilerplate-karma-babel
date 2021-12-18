@@ -6,12 +6,13 @@
 
 * :white_check_mark: Karma `v6.3.9`
 * :white_check_mark: Jasmine `v3.10.0`
-* :white_check_mark: Babel `v7.16.0`
+* :white_check_mark: Babel.js `v7.16.5`
 
 ## Unit tests
 
 ```bash
 npm test
+npm run test:nyan
 npm run test:watch
 ```
 

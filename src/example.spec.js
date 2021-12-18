@@ -1,24 +1,24 @@
 import { Example } from "./example";
 
-describe("Example", function () {
+describe("Example", () => {
   let o;
 
   beforeEach(() => {
     o = new Example();
   });
 
-  it("sync", function () {
+  it("sync", () => {
     expect(o.sync()).toEqual("sync");
   });
 
-  it("asyncCallback", function (done) {
+  it("asyncCallback", (done) => {
     o.asyncCallback((value) => {
       expect(value).toEqual("asyncCallback");
       done();
     });
   });
 
-  it("asyncPromise", async function () {
+  it("asyncPromise", async () => {
     const value = await o.asyncPromise();
     expect(value).toEqual("asyncPromise");
   });
