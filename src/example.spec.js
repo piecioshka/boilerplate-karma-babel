@@ -1,4 +1,4 @@
-import { Example } from "../src/example";
+import { Example } from "./example";
 
 describe("Example", function () {
   let o;
