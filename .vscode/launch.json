@@ -12,6 +12,15 @@
       "args": ["start", "--singleRun"],
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Testing: Watch",
+      "program": "${workspaceFolder}/node_modules/.bin/karma",
+      "args": ["start"],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
     }
   ]
 }

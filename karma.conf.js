@@ -10,14 +10,6 @@ module.exports = function (config) {
     // available frameworks: https://www.npmjs.com/search?q=keywords:karma-adapter
     frameworks: ["commonjs", "jasmine"],
 
-    plugins: [
-      "karma-commonjs",
-      "karma-jasmine",
-      "karma-chrome-launcher",
-      "karma-babel-preprocessor",
-      "karma-nyan-reporter",
-    ],
-
     // list of files / patterns to load in the browser
     files: ["src/**/*.js"],
 
@@ -33,7 +25,7 @@ module.exports = function (config) {
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://www.npmjs.com/search?q=keywords:karma-reporter
-    reporters: ["progress"],
+    reporters: ["progress", "clear-screen"],
 
     // web server port
     port: 9876,
